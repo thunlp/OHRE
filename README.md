@@ -1,8 +1,4 @@
-### Computing infrastructure
-
-
-
-#### Required packages:
+### Required packages:
 
 ```
 torch==1.3.0.post2
