@@ -1,0 +1,710 @@
+{
+    "P931": {
+        "sons": [],
+        "fathers": [
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P7153": {
+        "sons": [
+            "P276",
+            "P17",
+            "P740",
+            "P937",
+            "P551",
+            "P27",
+            "P4688",
+            "P159",
+            "P206",
+            "P4552",
+            "P131",
+            "P931",
+            "P706",
+            "P1001",
+            "P495"
+        ],
+        "fathers": [],
+        "relation_type": "wiki"
+    },
+    "P4552": {
+        "sons": [],
+        "fathers": [
+            "P276",
+            "P706",
+            "P4688",
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P4688": {
+        "sons": [
+            "P4552"
+        ],
+        "fathers": [
+            "P276",
+            "P706",
+            "P7153"
+        ],
+        "relation_type": "wiki"
+    },
+    "P706": {
+        "sons": [
+            "P4552",
+            "P4688"
+        ],
+        "fathers": [
+            "P276",
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P276": {
+        "sons": [
+            "P17",
+            "P740",
+            "P27",
+            "P4688",
+            "P206",
+            "P4552",
+            "P131",
+            "P551",
+            "P706",
+            "P1001",
+            "P495"
+        ],
+        "fathers": [
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P140": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P150": {
+        "sons": [],
+        "fathers": [
+            "P527"
+        ],
+        "relation_type": "train"
+    },
+    "P527": {
+        "sons": [
+            "P150"
+        ],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P6": {
+        "sons": [],
+        "fathers": [
+            "P488",
+            "P3342"
+        ],
+        "relation_type": "train"
+    },
+    "P488": {
+        "sons": [
+            "P6"
+        ],
+        "fathers": [
+            "P3342"
+        ],
+        "relation_type": "wiki"
+    },
+    "P3342": {
+        "sons": [
+            "P1923",
+            "P1877",
+            "P3373",
+            "P25",
+            "P1038",
+            "P40",
+            "P6",
+            "P710",
+            "P991",
+            "P488",
+            "P1346",
+            "P26",
+            "P22",
+            "P175"
+        ],
+        "fathers": [],
+        "relation_type": "wiki"
+    },
+    "P449": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P1435": {
+        "sons": [],
+        "fathers": [
+            "P31"
+        ],
+        "relation_type": "train"
+    },
+    "P31": {
+        "sons": [
+            "P105",
+            "P1435"
+        ],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P175": {
+        "sons": [],
+        "fathers": [
+            "P3342",
+            "P710"
+        ],
+        "relation_type": "train"
+    },
+    "P710": {
+        "sons": [
+            "P1923",
+            "P1346",
+            "P991",
+            "P175"
+        ],
+        "fathers": [
+            "P3342"
+        ],
+        "relation_type": "train"
+    },
+    "P1344": {
+        "sons": [
+            "P118"
+        ],
+        "fathers": [
+            "P793"
+        ],
+        "relation_type": "train"
+    },
+    "P793": {
+        "sons": [
+            "P1344",
+            "P118"
+        ],
+        "fathers": [],
+        "relation_type": "wiki"
+    },
+    "P39": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P740": {
+        "sons": [],
+        "fathers": [
+            "P276",
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P84": {
+        "sons": [],
+        "fathers": [
+            "P287",
+            "P170"
+        ],
+        "relation_type": "train"
+    },
+    "P287": {
+        "sons": [
+            "P84"
+        ],
+        "fathers": [
+            "P170"
+        ],
+        "relation_type": "wiki"
+    },
+    "P170": {
+        "sons": [
+            "P178",
+            "P86",
+            "P58",
+            "P50",
+            "P287",
+            "P57",
+            "P84"
+        ],
+        "fathers": [],
+        "relation_type": "wiki"
+    },
+    "P57": {
+        "sons": [],
+        "fathers": [
+            "P50",
+            "P170"
+        ],
+        "relation_type": "train"
+    },
+    "P50": {
+        "sons": [
+            "P86",
+            "P57",
+            "P58"
+        ],
+        "fathers": [
+            "P170"
+        ],
+        "relation_type": "wiki"
+    },
+    "P22": {
+        "sons": [],
+        "fathers": [
+            "P3342",
+            "P1038"
+        ],
+        "relation_type": "train"
+    },
+    "P1038": {
+        "sons": [
+            "P3373",
+            "P40",
+            "P22",
+            "P25"
+        ],
+        "fathers": [
+            "P3342"
+        ],
+        "relation_type": "wiki"
+    },
+    "P241": {
+        "sons": [],
+        "fathers": [
+            "P361"
+        ],
+        "relation_type": "train"
+    },
+    "P361": {
+        "sons": [
+            "P241",
+            "P3450",
+            "P463",
+            "P1416",
+            "P102",
+            "P59"
+        ],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P403": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P135": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P991": {
+        "sons": [],
+        "fathers": [
+            "P3342",
+            "P1346",
+            "P710"
+        ],
+        "relation_type": "train"
+    },
+    "P1346": {
+        "sons": [
+            "P991"
+        ],
+        "fathers": [
+            "P3342",
+            "P710"
+        ],
+        "relation_type": "train"
+    },
+    "P156": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P176": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P1877": {
+        "sons": [],
+        "fathers": [
+            "P3342"
+        ],
+        "relation_type": "train"
+    },
+    "P1408": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P159": {
+        "sons": [],
+        "fathers": [
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P3373": {
+        "sons": [],
+        "fathers": [
+            "P3342",
+            "P1038"
+        ],
+        "relation_type": "train"
+    },
+    "P106": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P551": {
+        "sons": [],
+        "fathers": [
+            "P276",
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P937": {
+        "sons": [],
+        "fathers": [
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P355": {
+        "sons": [],
+        "fathers": [
+            "P1830"
+        ],
+        "relation_type": "train"
+    },
+    "P1830": {
+        "sons": [
+            "P355"
+        ],
+        "fathers": [],
+        "relation_type": "wiki"
+    },
+    "P137": {
+        "sons": [],
+        "fathers": [
+            "P1535"
+        ],
+        "relation_type": "train"
+    },
+    "P1535": {
+        "sons": [
+            "P137"
+        ],
+        "fathers": [],
+        "relation_type": "wiki"
+    },
+    "P674": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P466": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P136": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P306": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P127": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P400": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P974": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P460": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P118": {
+        "sons": [],
+        "fathers": [
+            "P1344",
+            "P793"
+        ],
+        "relation_type": "train"
+    },
+    "P264": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P750": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P58": {
+        "sons": [],
+        "fathers": [
+            "P50",
+            "P170"
+        ],
+        "relation_type": "train"
+    },
+    "P3450": {
+        "sons": [],
+        "fathers": [
+            "P361"
+        ],
+        "relation_type": "train"
+    },
+    "P105": {
+        "sons": [],
+        "fathers": [
+            "P31"
+        ],
+        "relation_type": "train"
+    },
+    "P101": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P407": {
+        "sons": [
+            "P364"
+        ],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P1001": {
+        "sons": [],
+        "fathers": [
+            "P276",
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P131": {
+        "sons": [
+            "P17",
+            "P495",
+            "P27"
+        ],
+        "fathers": [
+            "P276",
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P177": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P641": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P206": {
+        "sons": [],
+        "fathers": [
+            "P276",
+            "P7153"
+        ],
+        "relation_type": "train"
+    },
+    "P412": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P155": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P26": {
+        "sons": [],
+        "fathers": [
+            "P3342"
+        ],
+        "relation_type": "train"
+    },
+    "P410": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P25": {
+        "sons": [],
+        "fathers": [
+            "P3342",
+            "P1038"
+        ],
+        "relation_type": "train"
+    },
+    "P463": {
+        "sons": [
+            "P102"
+        ],
+        "fathers": [
+            "P361",
+            "P1416"
+        ],
+        "relation_type": "train"
+    },
+    "P1416": {
+        "sons": [
+            "P463",
+            "P102"
+        ],
+        "fathers": [
+            "P361"
+        ],
+        "relation_type": "wiki"
+    },
+    "P921": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "P1923": {
+        "sons": [],
+        "fathers": [
+            "P3342",
+            "P710"
+        ],
+        "relation_type": "test"
+    },
+    "P27": {
+        "sons": [],
+        "fathers": [
+            "P17",
+            "P131",
+            "P276",
+            "P7153"
+        ],
+        "relation_type": "test"
+    },
+    "P17": {
+        "sons": [
+            "P495",
+            "P27"
+        ],
+        "fathers": [
+            "P276",
+            "P131",
+            "P7153"
+        ],
+        "relation_type": "test"
+    },
+    "P495": {
+        "sons": [],
+        "fathers": [
+            "P17",
+            "P131",
+            "P276",
+            "P7153"
+        ],
+        "relation_type": "test"
+    },
+    "P123": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "test"
+    },
+    "P178": {
+        "sons": [],
+        "fathers": [
+            "P170"
+        ],
+        "relation_type": "test"
+    },
+    "P1411": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "test"
+    },
+    "P102": {
+        "sons": [],
+        "fathers": [
+            "P463",
+            "P361",
+            "P1416"
+        ],
+        "relation_type": "test"
+    },
+    "P1303": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "test"
+    },
+    "P86": {
+        "sons": [],
+        "fathers": [
+            "P50",
+            "P170"
+        ],
+        "relation_type": "test"
+    },
+    "P800": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "test"
+    },
+    "P364": {
+        "sons": [],
+        "fathers": [
+            "P407"
+        ],
+        "relation_type": "test"
+    },
+    "P2094": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "test"
+    },
+    "P59": {
+        "sons": [],
+        "fathers": [
+            "P361"
+        ],
+        "relation_type": "test"
+    },
+    "P413": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "test"
+    },
+    "P40": {
+        "sons": [],
+        "fathers": [
+            "P3342",
+            "P1038"
+        ],
+        "relation_type": "test"
+    }
+}

@@ -1,0 +1,674 @@
+{
+    "place served by transport hub": {
+        "sons": [],
+        "fathers": [
+            "significant place"
+        ]
+    },
+    "significant place": {
+        "sons": [
+            "location of formation",
+            "country of origin",
+            "location",
+            "geomorphological unit",
+            "located in or next to body of water",
+            "country",
+            "located in the administrative territorial entity",
+            "residence",
+            "work location",
+            "headquarters location",
+            "applies to jurisdiction",
+            "country of citizenship",
+            "place served by transport hub",
+            "located on terrain feature",
+            "mountain range"
+        ],
+        "fathers": [
+            "geomorphological unit",
+            "country",
+            "location",
+            "located in the administrative territorial entity",
+            "significant place",
+            "located on terrain feature"
+        ]
+    },
+    "mountain range": {
+        "sons": [],
+        "fathers": [
+            "location",
+            "geomorphological unit",
+            "located on terrain feature",
+            "significant place"
+        ]
+    },
+    "geomorphological unit": {
+        "sons": [
+            "mountain range"
+        ],
+        "fathers": [
+            "location",
+            "geomorphological unit",
+            "located on terrain feature",
+            "significant place"
+        ]
+    },
+    "located on terrain feature": {
+        "sons": [
+            "geomorphological unit",
+            "mountain range"
+        ],
+        "fathers": [
+            "location",
+            "geomorphological unit",
+            "located on terrain feature",
+            "significant place"
+        ]
+    },
+    "location": {
+        "sons": [
+            "location of formation",
+            "country of origin",
+            "geomorphological unit",
+            "located in or next to body of water",
+            "country",
+            "located in the administrative territorial entity",
+            "residence",
+            "applies to jurisdiction",
+            "country of citizenship",
+            "located on terrain feature",
+            "mountain range"
+        ],
+        "fathers": [
+            "location",
+            "country",
+            "geomorphological unit",
+            "located in the administrative territorial entity",
+            "significant place",
+            "located on terrain feature"
+        ]
+    },
+    "religion": {
+        "sons": [],
+        "fathers": []
+    },
+    "contains administrative territorial entity": {
+        "sons": [],
+        "fathers": [
+            "has part"
+        ]
+    },
+    "has part": {
+        "sons": [
+            "contains administrative territorial entity"
+        ],
+        "fathers": [
+            "has part"
+        ]
+    },
+    "head of government": {
+        "sons": [],
+        "fathers": [
+            "chairperson",
+            "significant person"
+        ]
+    },
+    "chairperson": {
+        "sons": [
+            "head of government"
+        ],
+        "fathers": [
+            "chairperson",
+            "significant person"
+        ]
+    },
+    "significant person": {
+        "sons": [
+            "participant",
+            "relative",
+            "head of government",
+            "performer",
+            "successful candidate",
+            "sibling",
+            "father",
+            "mother",
+            "spouse",
+            "after a work by",
+            "winner",
+            "child",
+            "participating team",
+            "chairperson"
+        ],
+        "fathers": [
+            "participant",
+            "relative",
+            "winner",
+            "chairperson",
+            "significant person"
+        ]
+    },
+    "original broadcaster": {
+        "sons": [],
+        "fathers": []
+    },
+    "heritage designation": {
+        "sons": [],
+        "fathers": [
+            "instance of"
+        ]
+    },
+    "instance of": {
+        "sons": [
+            "taxon rank",
+            "heritage designation"
+        ],
+        "fathers": [
+            "instance of"
+        ]
+    },
+    "performer": {
+        "sons": [],
+        "fathers": [
+            "participant",
+            "significant person"
+        ]
+    },
+    "participant": {
+        "sons": [
+            "successful candidate",
+            "performer",
+            "winner",
+            "participating team"
+        ],
+        "fathers": [
+            "participant",
+            "winner",
+            "significant person"
+        ]
+    },
+    "participant of": {
+        "sons": [
+            "league"
+        ],
+        "fathers": [
+            "significant event",
+            "participant of"
+        ]
+    },
+    "significant event": {
+        "sons": [
+            "participant of",
+            "league"
+        ],
+        "fathers": [
+            "significant event",
+            "participant of"
+        ]
+    },
+    "position held": {
+        "sons": [],
+        "fathers": []
+    },
+    "location of formation": {
+        "sons": [],
+        "fathers": [
+            "significant place",
+            "location"
+        ]
+    },
+    "architect": {
+        "sons": [],
+        "fathers": [
+            "creator",
+            "designed by"
+        ]
+    },
+    "designed by": {
+        "sons": [
+            "architect"
+        ],
+        "fathers": [
+            "creator",
+            "designed by"
+        ]
+    },
+    "creator": {
+        "sons": [
+            "designed by",
+            "architect",
+            "composer",
+            "developer",
+            "author",
+            "director",
+            "screenwriter"
+        ],
+        "fathers": [
+            "creator",
+            "designed by",
+            "author"
+        ]
+    },
+    "director": {
+        "sons": [],
+        "fathers": [
+            "creator",
+            "author"
+        ]
+    },
+    "author": {
+        "sons": [
+            "composer",
+            "director",
+            "screenwriter"
+        ],
+        "fathers": [
+            "creator",
+            "author"
+        ]
+    },
+    "father": {
+        "sons": [],
+        "fathers": [
+            "relative",
+            "significant person"
+        ]
+    },
+    "relative": {
+        "sons": [
+            "sibling",
+            "mother",
+            "child",
+            "father"
+        ],
+        "fathers": [
+            "relative",
+            "significant person"
+        ]
+    },
+    "military branch": {
+        "sons": [],
+        "fathers": [
+            "part of"
+        ]
+    },
+    "part of": {
+        "sons": [
+            "military branch",
+            "member of political party",
+            "sports season of league or competition",
+            "affiliation",
+            "member of",
+            "constellation"
+        ],
+        "fathers": [
+            "member of",
+            "part of",
+            "affiliation"
+        ]
+    },
+    "mouth of the watercourse": {
+        "sons": [],
+        "fathers": []
+    },
+    "movement": {
+        "sons": [],
+        "fathers": []
+    },
+    "successful candidate": {
+        "sons": [],
+        "fathers": [
+            "participant",
+            "winner",
+            "significant person"
+        ]
+    },
+    "winner": {
+        "sons": [
+            "successful candidate"
+        ],
+        "fathers": [
+            "participant",
+            "winner",
+            "significant person"
+        ]
+    },
+    "followed by": {
+        "sons": [],
+        "fathers": []
+    },
+    "manufacturer": {
+        "sons": [],
+        "fathers": []
+    },
+    "after a work by": {
+        "sons": [],
+        "fathers": [
+            "significant person"
+        ]
+    },
+    "licensed to broadcast to": {
+        "sons": [],
+        "fathers": []
+    },
+    "headquarters location": {
+        "sons": [],
+        "fathers": [
+            "significant place"
+        ]
+    },
+    "sibling": {
+        "sons": [],
+        "fathers": [
+            "relative",
+            "significant person"
+        ]
+    },
+    "occupation": {
+        "sons": [],
+        "fathers": []
+    },
+    "residence": {
+        "sons": [],
+        "fathers": [
+            "significant place",
+            "location"
+        ]
+    },
+    "work location": {
+        "sons": [],
+        "fathers": [
+            "significant place"
+        ]
+    },
+    "subsidiary": {
+        "sons": [],
+        "fathers": [
+            "owner of"
+        ]
+    },
+    "owner of": {
+        "sons": [
+            "subsidiary"
+        ],
+        "fathers": [
+            "owner of"
+        ]
+    },
+    "operator": {
+        "sons": [],
+        "fathers": [
+            "used by"
+        ]
+    },
+    "used by": {
+        "sons": [
+            "operator"
+        ],
+        "fathers": [
+            "used by"
+        ]
+    },
+    "characters": {
+        "sons": [],
+        "fathers": []
+    },
+    "occupant": {
+        "sons": [],
+        "fathers": []
+    },
+    "genre": {
+        "sons": [],
+        "fathers": []
+    },
+    "operating system": {
+        "sons": [],
+        "fathers": []
+    },
+    "owned by": {
+        "sons": [],
+        "fathers": []
+    },
+    "platform": {
+        "sons": [],
+        "fathers": []
+    },
+    "tributary": {
+        "sons": [],
+        "fathers": []
+    },
+    "said to be the same as": {
+        "sons": [],
+        "fathers": []
+    },
+    "league": {
+        "sons": [],
+        "fathers": [
+            "significant event",
+            "participant of"
+        ]
+    },
+    "record label": {
+        "sons": [],
+        "fathers": []
+    },
+    "distributor": {
+        "sons": [],
+        "fathers": []
+    },
+    "screenwriter": {
+        "sons": [],
+        "fathers": [
+            "creator",
+            "author"
+        ]
+    },
+    "sports season of league or competition": {
+        "sons": [],
+        "fathers": [
+            "part of"
+        ]
+    },
+    "taxon rank": {
+        "sons": [],
+        "fathers": [
+            "instance of"
+        ]
+    },
+    "field of work": {
+        "sons": [],
+        "fathers": []
+    },
+    "language of work or name": {
+        "sons": [
+            "original language of film or TV show"
+        ],
+        "fathers": [
+            "language of work or name"
+        ]
+    },
+    "applies to jurisdiction": {
+        "sons": [],
+        "fathers": [
+            "significant place",
+            "location"
+        ]
+    },
+    "located in the administrative territorial entity": {
+        "sons": [
+            "country of origin",
+            "country",
+            "country of citizenship"
+        ],
+        "fathers": [
+            "located in the administrative territorial entity",
+            "significant place",
+            "location",
+            "country"
+        ]
+    },
+    "crosses": {
+        "sons": [],
+        "fathers": []
+    },
+    "sport": {
+        "sons": [],
+        "fathers": []
+    },
+    "located in or next to body of water": {
+        "sons": [],
+        "fathers": [
+            "significant place",
+            "location"
+        ]
+    },
+    "voice type": {
+        "sons": [],
+        "fathers": []
+    },
+    "follows": {
+        "sons": [],
+        "fathers": []
+    },
+    "spouse": {
+        "sons": [],
+        "fathers": [
+            "significant person"
+        ]
+    },
+    "military rank": {
+        "sons": [],
+        "fathers": []
+    },
+    "mother": {
+        "sons": [],
+        "fathers": [
+            "relative",
+            "significant person"
+        ]
+    },
+    "member of": {
+        "sons": [
+            "member of political party"
+        ],
+        "fathers": [
+            "member of",
+            "part of",
+            "affiliation"
+        ]
+    },
+    "affiliation": {
+        "sons": [
+            "member of",
+            "member of political party"
+        ],
+        "fathers": [
+            "member of",
+            "part of",
+            "affiliation"
+        ]
+    },
+    "main subject": {
+        "sons": [],
+        "fathers": []
+    },
+    "participating team": {
+        "sons": [],
+        "fathers": [
+            "participant",
+            "significant person"
+        ]
+    },
+    "country of citizenship": {
+        "sons": [],
+        "fathers": [
+            "located in the administrative territorial entity",
+            "significant place",
+            "location",
+            "country"
+        ]
+    },
+    "country": {
+        "sons": [
+            "country of origin",
+            "country of citizenship"
+        ],
+        "fathers": [
+            "located in the administrative territorial entity",
+            "significant place",
+            "location",
+            "country"
+        ]
+    },
+    "country of origin": {
+        "sons": [],
+        "fathers": [
+            "located in the administrative territorial entity",
+            "significant place",
+            "location",
+            "country"
+        ]
+    },
+    "publisher": {
+        "sons": [],
+        "fathers": []
+    },
+    "developer": {
+        "sons": [],
+        "fathers": [
+            "creator"
+        ]
+    },
+    "nominated for": {
+        "sons": [],
+        "fathers": []
+    },
+    "member of political party": {
+        "sons": [],
+        "fathers": [
+            "member of",
+            "part of",
+            "affiliation"
+        ]
+    },
+    "instrument": {
+        "sons": [],
+        "fathers": []
+    },
+    "composer": {
+        "sons": [],
+        "fathers": [
+            "creator",
+            "author"
+        ]
+    },
+    "notable work": {
+        "sons": [],
+        "fathers": []
+    },
+    "original language of film or TV show": {
+        "sons": [],
+        "fathers": [
+            "language of work or name"
+        ]
+    },
+    "competition class": {
+        "sons": [],
+        "fathers": []
+    },
+    "constellation": {
+        "sons": [],
+        "fathers": [
+            "part of"
+        ]
+    },
+    "position played on team / speciality": {
+        "sons": [],
+        "fathers": []
+    },
+    "child": {
+        "sons": [],
+        "fathers": [
+            "relative",
+            "significant person"
+        ]
+    }
+}

@@ -1,0 +1,614 @@
+{
+    "place served by transport hub": {
+        "sons": [],
+        "fathers": [
+            "significant place"
+        ],
+        "relation_type": "train"
+    },
+    "significant place": {
+        "sons": [
+            "geomorphological unit",
+            "mountain range",
+            "located in the administrative territorial entity",
+            "residence",
+            "place served by transport hub",
+            "location",
+            "located in or next to body of water",
+            "location of formation",
+            "located on terrain feature",
+            "work location",
+            "headquarters location",
+            "applies to jurisdiction"
+        ],
+        "fathers": [
+            "located on terrain feature",
+            "significant place",
+            "location",
+            "geomorphological unit"
+        ],
+        "relation_type": "wiki"
+    },
+    "mountain range": {
+        "sons": [],
+        "fathers": [
+            "located on terrain feature",
+            "significant place",
+            "location",
+            "geomorphological unit"
+        ],
+        "relation_type": "train"
+    },
+    "geomorphological unit": {
+        "sons": [
+            "mountain range"
+        ],
+        "fathers": [
+            "located on terrain feature",
+            "significant place",
+            "location",
+            "geomorphological unit"
+        ],
+        "relation_type": "wiki"
+    },
+    "located on terrain feature": {
+        "sons": [
+            "mountain range",
+            "geomorphological unit"
+        ],
+        "fathers": [
+            "located on terrain feature",
+            "significant place",
+            "location",
+            "geomorphological unit"
+        ],
+        "relation_type": "train"
+    },
+    "location": {
+        "sons": [
+            "geomorphological unit",
+            "mountain range",
+            "located in the administrative territorial entity",
+            "residence",
+            "located in or next to body of water",
+            "location of formation",
+            "located on terrain feature",
+            "applies to jurisdiction"
+        ],
+        "fathers": [
+            "located on terrain feature",
+            "significant place",
+            "location",
+            "geomorphological unit"
+        ],
+        "relation_type": "train"
+    },
+    "religion": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "contains administrative territorial entity": {
+        "sons": [],
+        "fathers": [
+            "has part"
+        ],
+        "relation_type": "train"
+    },
+    "has part": {
+        "sons": [
+            "contains administrative territorial entity"
+        ],
+        "fathers": [
+            "has part"
+        ],
+        "relation_type": "train"
+    },
+    "head of government": {
+        "sons": [],
+        "fathers": [
+            "significant person",
+            "chairperson"
+        ],
+        "relation_type": "train"
+    },
+    "chairperson": {
+        "sons": [
+            "head of government"
+        ],
+        "fathers": [
+            "significant person",
+            "chairperson"
+        ],
+        "relation_type": "wiki"
+    },
+    "significant person": {
+        "sons": [
+            "participant",
+            "head of government",
+            "performer",
+            "after a work by",
+            "father",
+            "mother",
+            "sibling",
+            "chairperson",
+            "winner",
+            "relative",
+            "spouse",
+            "successful candidate"
+        ],
+        "fathers": [
+            "participant",
+            "significant person",
+            "chairperson",
+            "winner",
+            "relative"
+        ],
+        "relation_type": "wiki"
+    },
+    "original broadcaster": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "heritage designation": {
+        "sons": [],
+        "fathers": [
+            "instance of"
+        ],
+        "relation_type": "train"
+    },
+    "instance of": {
+        "sons": [
+            "heritage designation",
+            "taxon rank"
+        ],
+        "fathers": [
+            "instance of"
+        ],
+        "relation_type": "train"
+    },
+    "performer": {
+        "sons": [],
+        "fathers": [
+            "participant",
+            "significant person"
+        ],
+        "relation_type": "train"
+    },
+    "participant": {
+        "sons": [
+            "successful candidate",
+            "winner",
+            "performer"
+        ],
+        "fathers": [
+            "participant",
+            "significant person",
+            "winner"
+        ],
+        "relation_type": "train"
+    },
+    "participant of": {
+        "sons": [
+            "league"
+        ],
+        "fathers": [
+            "participant of",
+            "significant event"
+        ],
+        "relation_type": "train"
+    },
+    "significant event": {
+        "sons": [
+            "participant of",
+            "league"
+        ],
+        "fathers": [
+            "participant of",
+            "significant event"
+        ],
+        "relation_type": "wiki"
+    },
+    "position held": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "location of formation": {
+        "sons": [],
+        "fathers": [
+            "significant place",
+            "location"
+        ],
+        "relation_type": "train"
+    },
+    "architect": {
+        "sons": [],
+        "fathers": [
+            "designed by",
+            "creator"
+        ],
+        "relation_type": "train"
+    },
+    "designed by": {
+        "sons": [
+            "architect"
+        ],
+        "fathers": [
+            "designed by",
+            "creator"
+        ],
+        "relation_type": "wiki"
+    },
+    "creator": {
+        "sons": [
+            "director",
+            "designed by",
+            "author",
+            "screenwriter",
+            "architect"
+        ],
+        "fathers": [
+            "designed by",
+            "author",
+            "creator"
+        ],
+        "relation_type": "wiki"
+    },
+    "director": {
+        "sons": [],
+        "fathers": [
+            "author",
+            "creator"
+        ],
+        "relation_type": "train"
+    },
+    "author": {
+        "sons": [
+            "director",
+            "screenwriter"
+        ],
+        "fathers": [
+            "author",
+            "creator"
+        ],
+        "relation_type": "wiki"
+    },
+    "father": {
+        "sons": [],
+        "fathers": [
+            "significant person",
+            "relative"
+        ],
+        "relation_type": "train"
+    },
+    "relative": {
+        "sons": [
+            "mother",
+            "sibling",
+            "father"
+        ],
+        "fathers": [
+            "significant person",
+            "relative"
+        ],
+        "relation_type": "wiki"
+    },
+    "military branch": {
+        "sons": [],
+        "fathers": [
+            "part of"
+        ],
+        "relation_type": "train"
+    },
+    "part of": {
+        "sons": [
+            "affiliation",
+            "military branch",
+            "member of",
+            "sports season of league or competition"
+        ],
+        "fathers": [
+            "affiliation",
+            "part of"
+        ],
+        "relation_type": "train"
+    },
+    "mouth of the watercourse": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "movement": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "successful candidate": {
+        "sons": [],
+        "fathers": [
+            "participant",
+            "significant person",
+            "winner"
+        ],
+        "relation_type": "train"
+    },
+    "winner": {
+        "sons": [
+            "successful candidate"
+        ],
+        "fathers": [
+            "participant",
+            "significant person",
+            "winner"
+        ],
+        "relation_type": "train"
+    },
+    "followed by": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "manufacturer": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "after a work by": {
+        "sons": [],
+        "fathers": [
+            "significant person"
+        ],
+        "relation_type": "train"
+    },
+    "licensed to broadcast to": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "headquarters location": {
+        "sons": [],
+        "fathers": [
+            "significant place"
+        ],
+        "relation_type": "train"
+    },
+    "sibling": {
+        "sons": [],
+        "fathers": [
+            "significant person",
+            "relative"
+        ],
+        "relation_type": "train"
+    },
+    "occupation": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "residence": {
+        "sons": [],
+        "fathers": [
+            "significant place",
+            "location"
+        ],
+        "relation_type": "train"
+    },
+    "work location": {
+        "sons": [],
+        "fathers": [
+            "significant place"
+        ],
+        "relation_type": "train"
+    },
+    "subsidiary": {
+        "sons": [],
+        "fathers": [
+            "owner of"
+        ],
+        "relation_type": "train"
+    },
+    "owner of": {
+        "sons": [
+            "subsidiary"
+        ],
+        "fathers": [
+            "owner of"
+        ],
+        "relation_type": "wiki"
+    },
+    "operator": {
+        "sons": [],
+        "fathers": [
+            "used by"
+        ],
+        "relation_type": "train"
+    },
+    "used by": {
+        "sons": [
+            "operator"
+        ],
+        "fathers": [
+            "used by"
+        ],
+        "relation_type": "wiki"
+    },
+    "characters": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "occupant": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "genre": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "operating system": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "owned by": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "platform": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "tributary": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "said to be the same as": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "league": {
+        "sons": [],
+        "fathers": [
+            "participant of",
+            "significant event"
+        ],
+        "relation_type": "train"
+    },
+    "record label": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "distributor": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "screenwriter": {
+        "sons": [],
+        "fathers": [
+            "author",
+            "creator"
+        ],
+        "relation_type": "train"
+    },
+    "sports season of league or competition": {
+        "sons": [],
+        "fathers": [
+            "part of"
+        ],
+        "relation_type": "train"
+    },
+    "taxon rank": {
+        "sons": [],
+        "fathers": [
+            "instance of"
+        ],
+        "relation_type": "train"
+    },
+    "field of work": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "language of work or name": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "applies to jurisdiction": {
+        "sons": [],
+        "fathers": [
+            "significant place",
+            "location"
+        ],
+        "relation_type": "train"
+    },
+    "located in the administrative territorial entity": {
+        "sons": [],
+        "fathers": [
+            "significant place",
+            "location"
+        ],
+        "relation_type": "train"
+    },
+    "crosses": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "sport": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "located in or next to body of water": {
+        "sons": [],
+        "fathers": [
+            "significant place",
+            "location"
+        ],
+        "relation_type": "train"
+    },
+    "voice type": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "follows": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "spouse": {
+        "sons": [],
+        "fathers": [
+            "significant person"
+        ],
+        "relation_type": "train"
+    },
+    "military rank": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    },
+    "mother": {
+        "sons": [],
+        "fathers": [
+            "significant person",
+            "relative"
+        ],
+        "relation_type": "train"
+    },
+    "member of": {
+        "sons": [],
+        "fathers": [
+            "affiliation",
+            "part of"
+        ],
+        "relation_type": "train"
+    },
+    "affiliation": {
+        "sons": [
+            "member of"
+        ],
+        "fathers": [
+            "affiliation",
+            "part of"
+        ],
+        "relation_type": "wiki"
+    },
+    "main subject": {
+        "sons": [],
+        "fathers": [],
+        "relation_type": "train"
+    }
+}
