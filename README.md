@@ -31,12 +31,21 @@ NYT-FB data is from [Discrete-State Variational Autoencoders for Joint Discovery
 
 ### Run:
 
-#### FewRel Hierarchy
-> python train_OHRE.py --dataset ori
+##### OpenRE (e.g. on FewRel Hierarchy)
 
+- python train_OHRE.py --dataset ori --gpu 0
 
+##### OHRE (e.g. on FewRel Hierarchy)
+
+- python train_OHRE_hierarchy_eval_louvain.py --dataset ori
 
 
 
 ### Cite
+Coming soon
+
+
+### Question
+
+If you have any questions, feel free to contact `drogozhang@gmail.com`.
 
