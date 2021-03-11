@@ -1,4 +1,4 @@
-### Required packages:
+## Required packages:
 
 ```
 torch==1.3.0.post2
@@ -17,7 +17,7 @@ OR install with:
 
 
 
-### Data
+## Data
 
 FewRel data and the preprocessing code are under the directory `./data`.
 
@@ -25,7 +25,7 @@ NYT-FB data is from [Discrete-State Variational Autoencoders for Joint Discovery
 
 
 
-### Run:
+## Run:
 
 ##### OpenRE (e.g. on FewRel Hierarchy)
 
@@ -37,11 +37,13 @@ NYT-FB data is from [Discrete-State Variational Autoencoders for Joint Discovery
 
 
 
-### Cite
+## Cite
+
 Coming soon
 
 
-### Question
+
+## Question
 
 If you have any questions, feel free to contact `drogozhang@gmail.com`.
 
