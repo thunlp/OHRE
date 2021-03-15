@@ -208,7 +208,7 @@ def train_SN(train_data_file, val_data_file, test_data_file, wordvec_file, load_
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--gpu", type=str, default='4')
+    parser.add_argument("--gpu", type=str, default='-1')
     parser.add_argument("--dataset", type=str, default='ori')
     parser.add_argument("--train_data_file", type=str, default='../data/fewrel_ori/hierarchy_fewrel80_train.json')
     parser.add_argument("--train_for_cluster_file", type=str,
