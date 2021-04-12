@@ -1,3 +1,6 @@
+# OHRE
+Dataset and code for NAACL 2021 paper Open Hierarchical Relation Extraction.
+
 ## Required packages:
 
 ```
