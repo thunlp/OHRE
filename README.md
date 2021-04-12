@@ -38,8 +38,16 @@ NYT-FB data is from [Discrete-State Variational Autoencoders for Joint Discovery
 
 
 ## Cite
+If you use the dataset or the code, please cite this paper:
+```
+@inproceedings{zhang2021Open,
+  title={Open Hierarchical Relation Extraction},
+  author={Kai Zhang, Yuan Yao, Ruobing Xie, Xu Han, Zhiyuan Liu, Fen Lin, Leyu Lin, Maosong Sun},
+  booktitle={Proceedings of NAACL 2021},
+  year={2021}
+}
+```
 
-Coming soon
 
 
 
