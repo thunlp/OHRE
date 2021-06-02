@@ -1,5 +1,8 @@
 # OHRE
-Dataset and code for NAACL 2021 paper Open Hierarchical Relation Extraction.
+
+Dataset and code for NAACL 2021 paper: Open Hierarchical Relation Extraction.
+
+
 
 ## Required packages:
 
@@ -30,18 +33,32 @@ NYT-FB data is from [Discrete-State Variational Autoencoders for Joint Discovery
 
 ## Run:
 
-##### OpenRE (e.g. on FewRel Hierarchy)
+#### OpenRE Setting(e.g. on FewRel Hierarchy)
 
-- python train_OHRE.py --dataset ori --gpu 0
+- **with dynamic triplet loss (default):**
 
-##### OHRE (e.g. on FewRel Hierarchy)
+`python train_OHRE.py --dataset ori --gpu 0`
 
-- python train_OHRE_hierarchy_eval_louvain.py --dataset ori --gpu 0
+- **with virtual adversarial training:**
+
+`python train_OHRE.py --dataset ori --gpu 0 --trainset_loss_type triplet_v_adv`
+
+#### Hierarchy Expansion Setting (e.g. on FewRel Hierarchy)
+
+- **with dynamic triplet loss (default):**
+
+`python train_OHRE_hierarchy_eval_louvain.py --dataset ori --gpu 0`
+
+- **with virtual adversarial training:**
+
+`python train_OHRE_hierarchy_eval_louvain.py --dataset ori --gpu 0 --trainset_loss_type triplet_v_adv ` 
 
 
 
 ## Cite
+
 If you use the dataset or the code, please cite this paper:
+
 ```
 @inproceedings{zhang2021Open,
   title={Open Hierarchical Relation Extraction},
@@ -57,4 +74,3 @@ If you use the dataset or the code, please cite this paper:
 ## Question
 
 If you have any questions, feel free to contact `drogozhang@gmail.com`.
-
