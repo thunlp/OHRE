@@ -27,7 +27,8 @@ OR install with:
 
 FewRel data and the preprocessing code are under the directory `./data`.
 
-NYT-FB data is from [Discrete-State Variational Autoencoders for Joint Discovery and Factorization of Relations](https://www.aclweb.org/anthology/Q16-1017.pdf)
+NYT-FB data is from [Discrete-State Variational Autoencoders for Joint Discovery and Factorization of Relations](https://www.aclweb.org/anthology/Q16-1017.pdf). (If you get the access to the original NYT-FB data from the authors, contact `drogozhang@gmail.com` to get our version of NYT-FB data.)
+
 
 
 
@@ -73,4 +74,4 @@ If you use the dataset or the code, please cite this paper:
 
 ## Question
 
-If you have any questions, feel free to contact `drogozhang@gmail.com`.
+If you have any questions, please feel free to contact `drogozhang@gmail.com`.
